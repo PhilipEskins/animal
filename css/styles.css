@@ -1,20 +1,37 @@
+body {
+  background-color: lightblue;
+  font-family: sans-serif;
+}
+
 .column {
   float: left;
   width: 300px;
   padding: 20px;
   margin: 15px;
+  border-radius: 20px;
+}
+
+.column h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
 }
 
 img {
   width: 300px;
 }
 
-body {
-  background-color: lightblue;
-}
-
 .dog {
-  background-color: salmon;
+  background-color: lightgray;
 }
 
 .cat {
@@ -23,4 +40,16 @@ body {
 
 .other {
 
+}
+
+p{
+  font-style: normal;
+}
+
+.column ul {
+  font-style: italic;
+}
+
+.bolder {
+  font-weight: bolder;
 }
