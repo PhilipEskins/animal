@@ -24,12 +24,11 @@ nav a {
   text-decoration: none;
 }
 
-
 nav a:visited {
   color: gray;
 }
 
-nav a:hover {
+.navigation a:hover {
   color: black;
 }
 
